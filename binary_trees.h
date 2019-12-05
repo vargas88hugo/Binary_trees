@@ -48,6 +48,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 size_t btHeight(const binary_tree_t *tree);
 size_t btPerfect(const binary_tree_t *tree, int depth, int level);
 size_t searchDown(const binary_tree_t *tree);
+binary_tree_t *btSister(binary_tree_t *node);
 
 void binary_tree_print(const binary_tree_t *);
 
